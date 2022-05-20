@@ -1,0 +1,60 @@
+.Nav {
+    background-color: white;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+}
+
+.navlinks {
+    color: rgb(59, 59, 59);
+    font-size: 1.4vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin: 0.8vmax;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.navlinks:hover {
+    text-decoration: none;
+    color: #fd4900;
+}
+
+.logo {
+    background-color: #fd4900;
+    height: 58px;
+    width: 58px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#logoImage {
+    transition: all 0.2s ease-in;
+    transform: translateX(-55px);
+}
+
+#logoImage:hover {
+    transform: translateX(0);
+}
+
+.searchBox {
+    position: relative;
+    left: 5vmax;
+    bottom: 0.5vmax;
+}
+
+input {
+    color: rgb(180, 180, 180);
+    padding: 0.8vmax;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 15vmax;
+    font-size: 1.1vmax;
+}
+
+.searchBox svg {
+    transform: scale(0.7);
+}

@@ -1,0 +1,28 @@
+.ProductReviewsCard {
+    margin: 0.5vmax;
+    background-color: white;
+    padding-bottom: 2vmax;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.ProductReviewsCard:hover {
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.353);
+    transform: translateY(-0.4vmax);
+}
+
+.ProductReviewsCard h5 {
+    color: rgb(94, 94, 94);
+    margin: 2vmax 0 0.5vmax 2vmax;
+    /*TRBL*/
+}
+
+.ProductReviewsCard span {
+    color: rgb(94, 94, 94);
+    font-size: 1vmax;
+    margin: 0 2vmax;
+}
+
+.ProductReviewsCard b {
+    color: orangered;
+}
